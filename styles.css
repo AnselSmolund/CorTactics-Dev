@@ -1,7 +1,9 @@
 #main-cover{
   text-align: center;
-  height: 50vh;
+  height: 100vh;
   text-align: left;
+  background-image: url("images/main-logo-light-grey.jpg");
+  background-size: cover;
 }
 #corTactics{
   transition:1s;
