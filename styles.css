@@ -8,6 +8,11 @@ html, body{
   text-align: left;
   background: none;
 }
+.main-container .display-4{
+  letter-spacing: .3em;
+  font-weight:400;
+
+}
 #corTactics{
   transition:1s;
 }
@@ -113,6 +118,8 @@ video#bgVideo {
   border:1px solid #454545; 
   padding:20px; 
   margin:20px auto;
+  background:#454545AF;
+  color:#fffff0;
 }
 #services-container .row{
   margin-bottom:50px; 
@@ -227,7 +234,9 @@ body {
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  margin: 100px 0;
+  margin: 0 auto;
+  max-width:500px;
+  margin-bottom:100px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
