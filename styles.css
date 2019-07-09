@@ -32,7 +32,7 @@ html, body{
 #title-header{
   color:white;
   text-align: center;
-  background:rgba(22, 22, 22, 0.937);
+  background:rgba(22, 22, 22, 0.5);
   padding: 50px;
   margin-top:10%;
   height:50%;
@@ -54,6 +54,10 @@ html, body{
   color:#545454;
   font-size: 80px;
   font-family: 'Oswald', sans-serif;
+  background: white;
+  width:50%;
+  margin:0 auto;
+  margin-bottom:20px;
   
 }
 
