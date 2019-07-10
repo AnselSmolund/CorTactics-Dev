@@ -126,6 +126,9 @@ html, body{
 #title-header button:hover{
   background: rgba(0,0,0,1);
 }
+#title-header:hover{
+  opacity:1 !important;
+}
 /* #about-page img{
   border: #14A1E8 solid 2px;
 } */
