@@ -15,8 +15,6 @@ $(document).on('mousemove', function() {
 $(function ()
 {
     $("#main-cover").mouseenter(function () {
-
-
         $('#bgVideo').css({'transform': 'scale(1.8)'});
     }).mouseleave(function (){
         $('#bgVideo').css({'transform': 'scale(1.2)'});
@@ -24,6 +22,11 @@ $(function ()
         $('.navbar').css({'transform' : 'translateY(-100%)'});
         $('#title-header').css({'opacity' : '.7'});
         $('#bgVideo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()/1.1) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()/1.1) * 100 +'%'});
+        $('.navbar').css({'transition' : '.5s'});
+        if(e.pageY < 100){
+            $('.navbar').css({'transition' : '.3s'});
+            $('.navbar').css({'transform' : 'translateY(0%)'});
+        }
     });
 });
 
