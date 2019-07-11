@@ -30,6 +30,10 @@ html, body{
   color:black !important;
 }
 
+.navbar #contact-info-nav {
+  margin-right: 10px;
+}
+
 /* INDEX PAGE */
 
 
