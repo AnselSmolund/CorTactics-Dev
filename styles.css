@@ -159,6 +159,30 @@ video#bgVideo {
  
 }
 
+@media only screen and (max-width: 600px) {
+  #main-cover{
+    margin-top:100px;
+  }
+  #about-header .display-4{
+    margin-top:100px;
+  }
+  #testimonials-header .display-4{
+    margin-top:100px;
+  }
+  #testimonials-container{
+    margin-top:-100px !important;
+  }
+  #container-header{
+    margin-top:100px !important;
+  }
+  #contact-header{
+    margin-top:100px !important;
+  }
+
+
+
+}
+
 /* End Index Page */ 
 
 
