@@ -2,6 +2,10 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
+$(document).ready(function() {
+    jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 100  // 2 seconds
+});
+
 // var timeout = null;
 // var movable = true;
 // $(document).on('mousemove', function() {
