@@ -249,16 +249,16 @@ video#bgVideo {
 #services-container .container{ 
   padding:20px; 
   margin:20px auto;
-  background:#454545AF;
+  background:	#989898;
   color:#fffff0;
 }
 
-#services-container .container:hover{ 
+/* #services-container .container:hover{ 
   padding:20px; 
   margin:20px auto;
   background:#454545AF;
   color:#fffff0;
-}
+} */
 #services-container .row{
   margin-bottom:50px; 
   text-align: center;
