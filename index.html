@@ -29,8 +29,14 @@
     <title>CorTactics, Cardiovascular CT Consulting</title>
   </head>
   <body>
-    <nav id="index-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a id = "navbrand" class="navbar-brand" href="#"><img class ="rounded-circle" src = "images/main-logo-grey.jpg" width = "150"></img></a>
+    <div class="row hiddenOnMobile" id = "topBlueBar" style="height:25px; width:110%;position:absolute;z-index:101; background: #6191bf; color:white">
+      <p style="font-size:14px; font-weight:800;margin-left:40px">Grow and Sustain your CTA Program through Enhanced Communication with Personal On-Going Cardiac CT Education | </p>
+      <p style="margin-left:10px"><span class="fa fa-phone" aria-hidden="true"></span><a style="color:white" href="tel:612-991-7118"> 612-991-7118</a>  </p>
+      <p style="color:white;margin-left:10px;font-weight: 900;">Call Now For Free Consultation!</p> 
+
+      </div>
+    <nav id="index-nav" class="navbar navbar-expand-lg navbar-light bg-light" >
+      <a id = "navbrand" class="navbar-brand" href="#" style="margin-top:10px"><img class ="rounded-circle" src = "images/main-logo-grey.jpg" width = "150"></img></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,12 +60,22 @@
         </ul>
       </div>
       
-      <div id="contact-info-nav">
+      <div id="contact-info-nav" >
       
         <ul class="list-unstyled" style="line-height: 5px; color:white; margin-top:5px">
-          <p><span class="fa fa-phone" aria-hidden="true"></span><a href="tel:612-991-7118"> 612-991-7118</a>
-          <p><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:david.caye@cortactics.com"> David.Caye@cortactics.com </a></p>
-          <p style="color:#ff3838">Call Now For Free Consultation!</p> 
+          <p id="numberOnPhone"  style="margin-left:10px; display: none"><span class="fa fa-phone" aria-hidden="true"></span><a style="color:white" href="tel:612-991-7118"> 612-991-7118</a>
+          <div id="navBarSocialIcons" style="text-align: right; margin-left:10px; margin-top:20px; color:white !important; font-size:40px">
+            <a href="https://www.linkedin.com/in/david-caye-93053626/"><span class="fa fa-linkedin-square" style="color: white"></span></a>
+            <a href="https://www.facebook.com/CorTactics/"><span class="fa fa-facebook-square" style="color: white"></span></a>
+            <a href="https://twitter.com/DavidCaye2"><span class="fa fa-twitter-square" style="color: white"></span></a>   
+          </div>
+        
+            <!-- <p><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:david.caye@cortactics.com"> David.Caye@cortactics.com </a></p>
+          <li style="font-size:20px" class="hiddenOnMobile">
+              <a href="https://www.linkedin.com/in/david-caye-93053626/"><span class="fa fa-linkedin-square"></span></a>
+              <a href="https://www.facebook.com/CorTactics/"><span class="fa fa-facebook-square"></span></a>
+              <a href="https://twitter.com/DavidCaye2"><span class="fa fa-twitter-square"></span></a>                
+          </li>         -->
           
         </ul>
         
@@ -163,7 +179,7 @@
                 <div class="carousel-item">
                   <video class="d-block w-70" style = "margin: 0 auto" preload="true" autoplay loop autobuffer muted playsinline width="70%" src = "images/30DayHalt.mov"></video> 
                   <div class="text-center">
-                      <h5> Post TABR With 30 Day HALT </h5>
+                      <h5> Post TAVR With 30 Day HALT </h5>
                       <p> Hypoattenuated Leaflet Thickening is present</p>
                     </div>
                 </div>
@@ -234,6 +250,9 @@
               </li>
               <li>
                   <a href="services.html#education"> Patient Education and Positioning </a>
+              </li>
+              <li>
+                  <a href="services.html#p_ct_acq"> Pediatric Congenital CT Acquisition</a>
               </li>
             </ul>
             <div class="text-center">
@@ -310,6 +329,9 @@
               </li>
               <li>
                   <a href="services.html#education"> Proven Staff Education and Positioning </a>
+              </li>
+              <li>
+                  <a href="services.html#p_ct_acq"> Pediatric Congenital CT Acquisition</a>
               </li>
             </ul> 
         </div>
