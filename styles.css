@@ -34,12 +34,29 @@ html, body{
   margin-right: 10px;
 }
 
+#navBarSocialIcons span:hover{
+  color:#6191bf!important;
+}
+@media only screen and (max-width:600px){
+  #navBarSocialIcons span{
+    font-size:20px;
+  } 
+  #navBarSocialIcons{
+    margin-right:100px !important;
+    margin-top:0px !important;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .hiddenOnMobile{
     display: none;
   }
   #numberOnPhone{
     display:inline-block !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #topBlueBar{
+    font-size:10px;
   }
 }
 
